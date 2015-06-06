@@ -5,4 +5,4 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="@string/about">
-</TextView><!-- From: file:/D:/Android/Projects/POIS/app/src/main/res/layout/about.xml -->
+</TextView><!-- From: file:/D:/Android/Android-Course/POIS/app/src/main/res/layout/about.xml -->

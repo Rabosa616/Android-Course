@@ -66,7 +66,8 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:contentDescription="logo del tipo"
-                android:src="@android:drawable/ic_menu_call" />
+                android:src="@android:drawable/ic_menu_call"
+                android:onClick="llamadaTelefono" />
 
             <TextView
                 android:id="@+id/telefono"
@@ -87,7 +88,8 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:contentDescription="logo del tipo"
-                android:src="@android:drawable/ic_menu_mapmode" />
+                android:src="@android:drawable/ic_menu_mapmode"
+                android:onClick="pgWeb" />
 
             <TextView
                 android:id="@+id/url"
@@ -178,12 +180,20 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:contentDescription="logo camara"
-                    android:src="@android:drawable/ic_menu_camera" />
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:onClick="tomarFoto" />
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:contentDescription="logo galeria"
-                    android:src="@android:drawable/ic_menu_gallery" />
+                    android:src="@android:drawable/ic_menu_gallery"
+                    android:onClick="galeria" />
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="Eliminar foto"
+                    android:src="@android:drawable/ic_menu_close_clear_cancel"
+                    android:onClick="eliminarFoto" />
             </LinearLayout>
         </FrameLayout>
     </LinearLayout>

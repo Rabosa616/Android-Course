@@ -26,4 +26,4 @@
         android:icon="@android:drawable/ic_menu_delete"
         android:orderInCategory="40"
         android:showAsAction="ifRoom"/>
-</menu><!-- From: file:/D:/Android/Projects/POIS/app/src/main/res/menu/vista_lugar.xml -->
+</menu><!-- From: file:/D:/Android/Android-Course/POIS/app/src/main/res/menu/vista_lugar.xml -->

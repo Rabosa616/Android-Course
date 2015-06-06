@@ -91,4 +91,4 @@
             android:hint="introduce tus notas"
             android:inputType="textMultiLine" />
     </RelativeLayout>
-</ScrollView><!-- From: file:/D:/Android/Projects/POIS/app/src/main/res/layout/poi_editor.xml -->
+</ScrollView><!-- From: file:/D:/Android/Android-Course/POIS/app/src/main/res/layout/poi_editor.xml -->

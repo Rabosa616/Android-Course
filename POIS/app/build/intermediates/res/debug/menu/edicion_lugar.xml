@@ -10,4 +10,4 @@
         android:title="Guardar"
         android:orderInCategory="20"
         android:showAsAction="ifRoom"/>
-</menu><!-- From: file:/D:/Android/Projects/POIS/app/src/main/res/menu/edicion_lugar.xml -->
+</menu><!-- From: file:/D:/Android/Android-Course/POIS/app/src/main/res/menu/edicion_lugar.xml -->

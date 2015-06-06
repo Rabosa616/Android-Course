@@ -106,4 +106,16 @@ public class Lugar {
     public void setComentario(String comentario) {
         this.comentario = comentario;
     }
+
+    public GeoPunto getPosicion() {
+        return posicion;
+    }
+
+    public void setFoto(String foto) {
+        this.foto = foto;
+    }
+
+    public String getFoto() {
+        return foto;
+    }
 }

@@ -5,4 +5,4 @@
     <item android:id="@+id/action_search" android:title="@string/action_search"
     android:orderInCategory="200" android:showAsAction="never" />
 </menu>
-<!-- From: file:/D:/Android/Projects/POIS/app/src/main/res/menu/menu_main.xml -->
+<!-- From: file:/D:/Android/Android-Course/POIS/app/src/main/res/menu/menu_main.xml -->

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/D:/Android/Projects/POIS/app/src/main/res/values-v21/styles.xml -->
+    <!-- From: file:/D:/Android/Android-Course/POIS/app/src/main/res/values-v21/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="android:Theme.Material.Light">
     </style>
-    <!-- From: file:/D:/Android/Projects/POIS/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-v21/values.xml -->
+    <!-- From: file:/D:/Android/Android-Course/POIS/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-v21/values.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance.Material"/>
     <style name="Base.TextAppearance.AppCompat.Body1" parent="android:TextAppearance.Material.Body1"/>
