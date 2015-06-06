@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">POIS</string>
+    <string name="action_settings">Configuración</string>
+    <string name="accion_salir">Salir</string>
+    <string name="accion_preferencias">Preferencias</string>
+    <string name="accion_mostrar">Mostrar Pois</string>
+    <string name="accion_acerca_de">Acerca de</string>
+    <string name="about">Este programa ha sido desarrollado como ejemplo en el curso de Android para demostrar cómo se pueden lanzar nuevas actividades desde la actividad principal.</string>
+    <string name="action_search">Search</string>
+</resources>
