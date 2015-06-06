@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConditionActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/accept_conditions"
+        android:id="@+id/welcome"
+        android:singleLine="false"
+        android:textStyle="bold"
+        android:textSize="14dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/accept"
+        android:id="@+id/accept"
+        android:onClick="onClickAccept" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/decline"
+        android:id="@+id/decline"
+        android:onClick="onClickDecline" />
+</LinearLayout><!-- From: file:/D:/Android/Projects/ActivitiesCommunication/app/src/main/res/layout/condition.xml -->
