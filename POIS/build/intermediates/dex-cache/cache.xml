@@ -2,53 +2,144 @@
 <items version="2" >
 
     <item
-        jar="D:\Android\Projects\POIS\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jar="D:\Android\Android-Course\POIS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.3.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="D:\Android\Projects\POIS\app\build\intermediates\pre-dexed\debug\classes-c3f96de47244dbe3680405ebead56b0ad1f01587.jar" />
+        sha1="7215ac1f2fca947b9415a6ee2a1bf991364aab24">
+        <dex dex="D:\Android\Android-Course\POIS\app\build\intermediates\pre-dexed\debug\classes-1fb41ba2d7809585673ccdcfb2341108018dea81.jar" />
     </item>
     <item
-        jar="D:\Android\Android-Course\POIS\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jar="D:\Android\Android-Course\POIS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.3.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="D:\Android\Android-Course\POIS\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-5e9e2602855d3a539263bea77c23c644a0e97e54.jar" />
+        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
+        <dex dex="D:\Android\Android-Course\POIS\app\build\intermediates\pre-dexed\debug\classes-8ed476de3af29b48f38b5fceb29bd7484dd390a7.jar" />
     </item>
     <item
-        jar="D:\Android\Projects\POIS\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jar="D:\Android\Android-Course\POIS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.3.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="D:\Android\Projects\POIS\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-8d4e6aa6f8a1cb017727783e1515559cf6cc428f.jar" />
+        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
+        <dex dex="D:\Android\Android-Course\POIS\app\build\intermediates\pre-dexed\debug\classes-b0bafcb842a0bdc2f3a51e6377eb42ed9bcf033b.jar" />
     </item>
     <item
-        jar="D:\Android\Android-Course\POIS\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jar="D:\Android\Android-Course\POIS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.3.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="D:\Android\Android-Course\POIS\app\build\intermediates\pre-dexed\debug\classes-f5061c7a925d4030a074ddfa09a694e2cf37ac31.jar" />
+        sha1="9c9dea9e85aceb09d95df5e6f7bc8a43fc286068">
+        <dex dex="D:\Android\Android-Course\POIS\app\build\intermediates\pre-dexed\debug\classes-70fbda34e67350fba4bde356b9355445431ec4f4.jar" />
     </item>
     <item
-        jar="D:\Android\Projects\POIS\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jar="D:\Android\Android-Course\POIS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.3.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="D:\Android\Projects\POIS\app\build\intermediates\pre-dexed\debug\classes-d7725dcbccd5c2d620d0be5b8d8e300796d11e73.jar" />
+        sha1="b2c07cdb814fe988ad05f7b4d767a841514a5991">
+        <dex dex="D:\Android\Android-Course\POIS\app\build\intermediates\pre-dexed\debug\classes-8b940c8b9313e8e7831172688d185b4395b1efb3.jar" />
     </item>
     <item
-        jar="D:\Android\Android-Course\POIS\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jar="D:\Android\Android-Course\POIS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.3.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="D:\Android\Android-Course\POIS\app\build\intermediates\pre-dexed\debug\classes-d91b999aa6dbd0f1ca43ec5f514198c8460605c2.jar" />
+        sha1="4f4fe3c23776540625f3c2844152a7510fddf9f1">
+        <dex dex="D:\Android\Android-Course\POIS\app\build\intermediates\pre-dexed\debug\classes-2fffef87ea151fe1d5ff45cc5d72ef00d5e86bb8.jar" />
     </item>
     <item
-        jar="C:\Users\Rabosa\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jar="D:\Android\Android-Course\POIS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.3.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="D:\Android\Projects\POIS\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-be141aaa51f29051188127b6f20f71b8e56fddd0.jar" />
+        sha1="59652857a825fff0de62166fca1bc9553cc01abb">
+        <dex dex="D:\Android\Android-Course\POIS\app\build\intermediates\pre-dexed\debug\classes-7b3e0b4449da9ba731e32116db1bf9c6ed749776.jar" />
+    </item>
+    <item
+        jar="D:\Android\Android-Course\POIS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
+        <dex dex="D:\Android\Android-Course\POIS\app\build\intermediates\pre-dexed\debug\classes-6a8efb75952e9e6ae993aa7da4edf26803bd57cf.jar" />
+    </item>
+    <item
+        jar="D:\Android\Android-Course\POIS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3988694bf9d8186ff97ad5cdfa4ed88b5010fe08">
+        <dex dex="D:\Android\Android-Course\POIS\app\build\intermediates\pre-dexed\debug\classes-03323804e981d3c382623034b91212fbab028ce7.jar" />
+    </item>
+    <item
+        jar="D:\Android\Android-Course\POIS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bb36004beb02b69562cbec9aa7d6a3cf16bf5d1b">
+        <dex dex="D:\Android\Android-Course\POIS\app\build\intermediates\pre-dexed\debug\classes-495833cec9ce33dc7216d2b28850da1792a2a383.jar" />
+    </item>
+    <item
+        jar="D:\Android\Android-Course\POIS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="565a01f90f1529f73362707c4c185d0623a68782">
+        <dex dex="D:\Android\Android-Course\POIS\app\build\intermediates\pre-dexed\debug\classes-eb967309fb98cd0605c7b689b9d87eb1b474451b.jar" />
+    </item>
+    <item
+        jar="D:\Android\Android-Course\POIS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a0ce76dfaccbfbd6c551ed2174280aaabe60fe47">
+        <dex dex="D:\Android\Android-Course\POIS\app\build\intermediates\pre-dexed\debug\classes-4bfb724ccbf2327cd0827aba862e7f5ef17d9820.jar" />
+    </item>
+    <item
+        jar="D:\Android\Android-Course\POIS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5b9f5b0aa8dee788beb63d23832cb29ce771343">
+        <dex dex="D:\Android\Android-Course\POIS\app\build\intermediates\pre-dexed\debug\classes-43746e4fe384e11c7045fd1321549752931cb786.jar" />
+    </item>
+    <item
+        jar="D:\Android\Android-Course\POIS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fe3e0c6de7cceed888b277487238b6af9a1cc299">
+        <dex dex="D:\Android\Android-Course\POIS\app\build\intermediates\pre-dexed\debug\classes-e2a29b1a7b066edeca8e7608c01a3137a9180d90.jar" />
+    </item>
+    <item
+        jar="D:\Android\Android-Course\POIS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3b4ff5c39dace8f3b4ab4cab8191785547a0815f">
+        <dex dex="D:\Android\Android-Course\POIS\app\build\intermediates\pre-dexed\debug\classes-56a2f427221b5098e30e816a24558ad2701a7df8.jar" />
+    </item>
+    <item
+        jar="D:\Android\Android-Course\POIS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0708ef60917bf94913fe9ef972a655b99462dca7">
+        <dex dex="D:\Android\Android-Course\POIS\app\build\intermediates\pre-dexed\debug\classes-c0786085ced31b80757bfabeb7eb2fb2773a2c36.jar" />
+    </item>
+    <item
+        jar="D:\Android\Android-Course\POIS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0180d031a7b54dabb93b4af3869468b55dc938bd">
+        <dex dex="D:\Android\Android-Course\POIS\app\build\intermediates\pre-dexed\debug\classes-1fcce7b338709555d6f8b07f8751cb9af029a8d5.jar" />
+    </item>
+    <item
+        jar="D:\Android\Android-Course\POIS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6046e5cdaf799120b7c56a5a061d80e8854c4d34">
+        <dex dex="D:\Android\Android-Course\POIS\app\build\intermediates\pre-dexed\debug\classes-df496c27d7670156bd94aefb310094e78f91ae42.jar" />
+    </item>
+    <item
+        jar="D:\Android\Android-Course\POIS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5ea948d825957be6c4358c48422bee60eef2d487">
+        <dex dex="D:\Android\Android-Course\POIS\app\build\intermediates\pre-dexed\debug\classes-43d6522bac17ee4d7dc4851f7baa3f0d7701ab2d.jar" />
+    </item>
+    <item
+        jar="D:\Android\Android-Course\POIS\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e35fae1b377c23aa5fd2d309a190c2d0f73d54ec">
+        <dex dex="D:\Android\Android-Course\POIS\app\build\intermediates\pre-dexed\debug\classes-e9ecbb2dad57018dd7ea58d63ab26e3d8855231e.jar" />
     </item>
 
 </items>

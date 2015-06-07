@@ -128,7 +128,10 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
             lanzarVistaLugar(null);
             return true;
         }
-
+        if (id==R.id.menu_mapa) {
+            Intent i = new Intent(this, Mapa.class);
+            startActivity(i);
+        }
         return super.onOptionsItemSelected(item);
     }
 
