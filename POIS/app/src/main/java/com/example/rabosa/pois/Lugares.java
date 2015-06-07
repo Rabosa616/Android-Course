@@ -7,6 +7,8 @@ import java.util.List;
  * Created by Rabosa on 06/06/2015.
  */
 public class Lugares {
+    final static String TAG = "MisLugares";
+    protected static GeoPunto posicionActual = new GeoPunto(0,0);
 
     protected static List<Lugar> vectorLugares = ejemploLugares();
 
