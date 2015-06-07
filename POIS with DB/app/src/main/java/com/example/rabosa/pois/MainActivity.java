@@ -38,11 +38,6 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
                 Lugares.listado(),
                 new String[] { "nombre", "direccion"},
                 new int[] { R.id.nombre, R.id.direccion}, 0);*/
-        adaptador = new AdaptadorCursorLugares(this, Lugares.listado());
-
-        ListView listView = (ListView) findViewById(R.id.listView);
-        listView.setAdapter(adaptador);
-        listView.setOnItemClickListener((AdapterView.OnItemClickListener) this);
         manejador = (LocationManager) getSystemService(LOCATION_SERVICE);
         if(manejador.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
             actualizaMejorLocaliz(manejador.getLastKnownLocation(
@@ -52,7 +47,22 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
             actualizaMejorLocaliz(manejador.getLastKnownLocation(
                     LocationManager.NETWORK_PROVIDER));
         }
+        iniciarVistas();
     }
+
+    private void iniciarVistas() {
+        adaptador = new AdaptadorCursorLugares(this, Lugares.listado());
+        ListView listView = (ListView) findViewById(R.id.listView);
+        listView.setAdapter(adaptador);
+        listView.setOnItemClickListener((AdapterView.OnItemClickListener) this);
+    }
+    private void actualizarVistas()
+    {
+        ListView listView = (ListView) findViewById(R.id.listView);
+        AdaptadorCursorLugares adaptador =(AdaptadorCursorLugares)listView.getAdapter();
+        adaptador.changeCursor(Lugares.listado());
+    }
+
     @Override protected void onStart() {
         super.onStart();
         Toast.makeText(this, "onStart", Toast.LENGTH_SHORT).show();
@@ -90,7 +100,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
                                int posicion, long id){
         Intent i = new Intent(this, PoiEditorActivity.class);
         i.putExtra("id", id);
-        startActivity(i);
+        startActivityForResult(i,0);
     }
 
     @Override public void onLocationChanged(Location location) {
@@ -139,9 +149,24 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
         }
         if (id==R.id.menu_mapa) {
             Intent i = new Intent(this, Mapa.class);
-            startActivity(i);
+            startActivityForResult(i, 0);
         }
+        if (id==R.id.accion_nuevo) {
+            long id2 = Lugares.nuevo();
+            Intent i= new Intent(this, EdicionLugar.class);
+            i.putExtra("nuevo", true);
+            i.putExtra("id", id2);
+            startActivityForResult(i, 0);
+            return true;
+        }
+
         return super.onOptionsItemSelected(item);
+    }
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data)
+    {
+        //super.onActivityResult(requestCode, resultCode, data);
+        actualizarVistas();
     }
 
     public void onAboutClick(View view)
@@ -166,7 +191,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
                        long id = Long.parseLong(entrada.getText().toString());
                        Intent i = new Intent(MainActivity.this, PoiEditorActivity.class);
                        i.putExtra("id", id);
-                       startActivity(i);
+                       startActivityForResult(i, 0);
                    }})
 
                .setNegativeButton("Cancelar", null)

@@ -103,7 +103,7 @@ public class PoiEditorActivity extends Activity {
             case R.id.accion_editar:
                 Intent i = new Intent(PoiEditorActivity.this, EdicionLugar.class);
                 i.putExtra("id", id);
-                startActivityForResult(i, 1234);
+                startActivityForResult(i, RESULTADO_EDITAR);
                 return true;
             case R.id.accion_borrar:
                 new AlertDialog.Builder(this)
@@ -118,6 +118,8 @@ public class PoiEditorActivity extends Activity {
                         .setNegativeButton("Cancelar", null)
                         .show();
                 return true;
+            case R.id.accion_volver:
+                finish();
             default:
                 return super.onOptionsItemSelected(item);
         }

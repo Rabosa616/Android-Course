@@ -2,6 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
     <item
+        android:id="@+id/accion_nuevo"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="80"
+        android:showAsAction="ifRoom"
+        android:title="nuevo"/>
+    <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:showAsAction="never"

@@ -63,9 +63,11 @@ public class AdaptadorLugares extends BaseAdapter {
         return vistaReciclada;
     }
 
+    @Override
     public int getCount() {
         return Lugares.size();
     }
+
     public Object getItem(int posicion) {
         return Lugares.elemento(posicion);
     }

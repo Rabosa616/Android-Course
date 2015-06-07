@@ -77,6 +77,9 @@ public class EdicionLugar extends Activity {
                 Lugares.actualizaLugar((int) id, lugar);
                 finish();
             case R.id.accion_cancelar:
+                if(getIntent().getExtras().getBoolean("nuevo", false)) {
+                    Lugares.borrar((int) id);
+                }
                 finish();
         }
 
